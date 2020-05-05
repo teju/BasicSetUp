@@ -1,0 +1,27 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="pl.aprilapps.easyphotopicker" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->/Users/tejaswinin/Documents/me/Market/library/easyimage_lib/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->/Users/tejaswinin/Documents/me/Market/library/easyimage_lib/src/main/AndroidManifest.xml
+8
+9    <application>
+9-->/Users/tejaswinin/Documents/me/Market/library/easyimage_lib/src/main/AndroidManifest.xml:5:5-17:19
+10
+11        <!-- <provider -->
+12        <!-- android:name="android.support.v4.content.FileProvider" -->
+13        <!-- android:authorities="${applicationId}.easyphotopicker.fileprovider" -->
+14        <!-- android:exported="false" -->
+15        <!-- android:grantUriPermissions="true" -->
+16        <!-- &gt; -->
+17        <!-- <meta-data -->
+18        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+19        <!-- android:resource="@xml/filepaths" -->
+20        <!-- /> -->
+21        <!-- </provider> -->
+22    </application>
+23
+24</manifest>

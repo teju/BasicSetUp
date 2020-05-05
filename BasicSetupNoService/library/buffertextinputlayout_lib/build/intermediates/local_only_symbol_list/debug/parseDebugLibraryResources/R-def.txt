@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+attr? counterEnabled
+attr? counterMaxLength
+attr? counterMode
+attr? counterOverflowTextAppearance
+attr? counterTextAppearance
+attr? displayFromCount
+attr? dotToggleEnabled
+attr? dropdownToggleEnabled
+attr? errorEnabled
+attr? errorTextAppearance
+attr? hintAnimationEnabled
+attr? hintEnabled
+attr? hintTextAppearance
+attr? mobileNoEnabled
+attr? passwordToggleEnabled
+attr? textColorError
+drawable dot_selector
+drawable dropdown_selector
+drawable dropdowngold
+drawable eye_password
+drawable icon_dot
+drawable icon_hide_password1
+drawable icon_show_password1
+id ascending
+id descending
+id standard
+id text_input_password_toggle
+layout dot_icon
+layout dropdown_icon
+layout passsword_icon
+string app_name
+string standard_character_counter_pattern
+style BufferTextInputLayout
+styleable BufferTextInputLayout hintTextAppearance android:hint hintEnabled errorEnabled errorTextAppearance counterEnabled mobileNoEnabled passwordToggleEnabled dotToggleEnabled dropdownToggleEnabled counterMaxLength counterTextAppearance counterOverflowTextAppearance android:textColorHint hintAnimationEnabled counterMode displayFromCount
+styleable DesignTheme textColorError

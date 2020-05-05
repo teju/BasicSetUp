@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Market</string>
+    <string name="action_settings">Settings</string>
+    <string name="session_expired">Session Expired</string>
+    <string name="you_have_been_loggedout">You have been logged out due to login in another device.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading">Loading</string>
+    <string name="market__network_error">Internal Erro</string>
+    <string name="market__no_internet">No Internet connection</string>
+    <string name="market__unknown_response">Unknown response from server. Please try again later</string>
+    <string name="confirm">Confirm</string>
+    <string name="please_allow_deera_access_permission_camera">
+        <![CDATA[Please allow De Era to access camera in order to scan & pay!]]></string>
+    <string-array name="business_type">
+        <item>Proprietor</item>
+        <item>Company</item>
+    </string-array>
+</resources>

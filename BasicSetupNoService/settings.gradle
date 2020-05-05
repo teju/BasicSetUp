@@ -1,0 +1,2 @@
+include ':app', 'library:easyimage_lib', 'library:buffertextinputlayout_lib', 'library:meowbottomnavigation'
+rootProject.name='Market'

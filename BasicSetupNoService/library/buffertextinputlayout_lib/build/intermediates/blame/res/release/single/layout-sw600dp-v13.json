@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/tejaswinin/Documents/iApps/deera-android-user/library/buffertextinputlayout_lib/build/intermediates/res/merged/release/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "/Users/tejaswinin/.gradle/caches/transforms-2/files-2.1/0df9376e4832b3834516fc5970a85035/material-1.1.0-alpha07/res/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/tejaswinin/Documents/iApps/deera-android-user/library/buffertextinputlayout_lib/build/intermediates/res/merged/release/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/tejaswinin/.gradle/caches/transforms-2/files-2.1/0df9376e4832b3834516fc5970a85035/material-1.1.0-alpha07/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    }
+]

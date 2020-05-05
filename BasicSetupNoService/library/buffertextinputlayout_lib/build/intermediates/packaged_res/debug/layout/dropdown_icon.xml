@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:orientation="vertical"
+              android:layout_gravity="center_vertical|end|right"
+              android:background="@android:color/white"
+              android:gravity="center">
+
+    <org.buffer.android.buffertextinputlayout.util.CheckableImageButton
+            android:id="@+id/text_input_password_toggle"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|end|right"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:adjustViewBounds="true"
+            android:visibility="gone"
+            tools:ignore="Overdraw"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/dropdowngold"
+            android:scaleType="fitCenter"/>
+</LinearLayout>

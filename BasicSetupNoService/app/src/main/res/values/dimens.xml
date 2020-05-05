@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="margin_btn">4dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_med">10dp</dimen>
+    <dimen name="margin_big">20dp</dimen>
+    <dimen name="margin_xtra">30dp</dimen>
+    <dimen name="margin_xxtra">40dp</dimen>
+    <dimen name="minSize">50dp</dimen>
+    <dimen name="imgXSmall">25dp</dimen>
+    <dimen name="imgSmall">30dp</dimen>
+    <dimen name="imgMedium">50dp</dimen>
+    <dimen name="imgTitle">70dp</dimen>
+    <dimen name="imgLarge">100dp</dimen>
+    <dimen name="imgXLarge">130dp</dimen>
+    <dimen name="imgXXLarge">200dp</dimen>
+    <dimen name="imgXXXLarge">250dp</dimen>
+    <dimen name="spacing_grid1">10dp</dimen>
+</resources>
