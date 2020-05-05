@@ -12,11 +12,8 @@ import com.amazon.market.etc.Keys
 import com.amazon.market.etc.UserInfoManager
 import com.amazon.market.ui.fragments.BaseFragment
 import com.amazon.market.ui.fragments.LandingScreenFragment
-import com.amazon.market.ui.fragments.LoginFragment
 import com.amazon.market.ui.fragments.MainFragment
-import pl.aprilapps.easyphotopicker.DefaultCallback
-import pl.aprilapps.easyphotopicker.EasyImage
-import java.io.File
+
 import java.util.ArrayList
 
 class ActivityMain : AppCompatActivity() {
@@ -25,7 +22,6 @@ class ActivityMain : AppCompatActivity() {
         private var MAIN_FLOW_INDEX = 0
         private val MAIN_FLOW_TAG = "MainFlowFragment"
     }
-    private var easyImageListener: DefaultCallback? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,14 +38,7 @@ class ActivityMain : AppCompatActivity() {
     }
 
     fun triggerMainProcess(){
-
-        if(!BaseHelper.isEmpty(UserInfoManager.getInstance(this).authToken)) {
-            setFragment(MainFragment())
-        } else if (UserInfoManager.getInstance(this).getLoggedInStatus()) {
-            setFragment(LoginFragment())
-        } else {
-            setFragment(LandingScreenFragment())
-        }
+        setFragment(LandingScreenFragment())
     }
 
     fun setFragment(frag: Fragment) {
@@ -66,7 +55,7 @@ class ActivityMain : AppCompatActivity() {
             f.add(R.id.layoutFragment, frag, MAIN_FLOW_TAG + MAIN_FLOW_INDEX).addToBackStack(
                 MAIN_FLOW_TAG
             ).commitAllowingStateLoss()
-            //BaseUIHelper.hideKeyboard(this)
+            Helper.hideKeyboard(this)
         } catch (e: Exception) {
             Helper.logException(this@ActivityMain, e)
         }
@@ -218,47 +207,7 @@ class ActivityMain : AppCompatActivity() {
         triggerMainProcess()
     }
 
-    fun setEasyImageListener(easyImageListener: DefaultCallback) {
-        this.easyImageListener = easyImageListener
-    }
 
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-
-        try {
-            for (fragment in supportFragmentManager.fragments) {
-                fragment.onActivityResult(requestCode, resultCode, data)
-            }
-        } catch (e: Exception) {
-            Helper.logException(this, e)
-        }
-
-        Helper.logException(this!!,"onImagePicked resultCode")
-
-        if (resultCode == RESULT_OK) {
-
-            EasyImage.handleActivityResult(requestCode, resultCode, data, this, object : DefaultCallback() {
-
-                override fun onImagePickerError(e: Exception, source: EasyImage.ImageSource, type: Int) {
-                    if (easyImageListener != null) {
-                        easyImageListener!!.onImagePickerError(e, source, type)
-                    }
-                }
-
-                override fun onImagePicked(imageFile: File, source: EasyImage.ImageSource, type: Int) {
-                    if (easyImageListener != null)
-                        easyImageListener!!.onImagePicked(imageFile, source, type)
-                }
-
-                override fun onCanceled(source: EasyImage.ImageSource, type: Int) {
-                    super.onCanceled(source, type)
-                    if (easyImageListener != null)
-                        easyImageListener!!.onCanceled(source, type)
-                }
-
-            })
-        }
-    }
     override fun onBackPressed() {
         val f = getSupportFragmentManager().beginTransaction()
         val list = getSupportFragmentManager().getFragments()

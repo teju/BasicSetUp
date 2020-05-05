@@ -136,7 +136,7 @@ open class BaseFragment : GenericFragment() {
 
 
         v?.let {
-            setBackButtonToolbarStyleOne(v!!)
+           // setBackButtonToolbarStyleOne(v!!)
 
         }
 
@@ -310,6 +310,7 @@ open class BaseFragment : GenericFragment() {
 
     }
 
+/*
     fun setBackButtonToolbarStyleOne(v: View) {
         try {
             val llBack = v.findViewById<LinearLayout>(R.id.llBack)
@@ -325,7 +326,8 @@ open class BaseFragment : GenericFragment() {
 //            Helper.logException(activity, e)
 //        }
 
-       /* try {
+       */
+/* try {
             val toolbar = v.findViewById<Toolbar>(R.id.toolbar)
             toolbar.navigationIcon = null
             toolbar.title = ""
@@ -334,35 +336,12 @@ open class BaseFragment : GenericFragment() {
             toolbar.setNavigationOnClickListener { home().onBackPressed() }
         } catch (e: Exception) {
             Helper.logException(activity, e)
-        }*/
-    }
-
-
-    fun setBackButtonToolbarStyleTwo(v: View, clickListener: View.OnClickListener?) {
-        try {
-            val llBack = v.findViewById<LinearLayout>(R.id.llBack)
-            llBack.setOnClickListener { view -> clickListener?.onClick(view) }
-        } catch (e: Exception) {
-            Helper.logException(activity, e)
-        }
-
-//        try {
-//            val ivBack = v.findViewById<ImageView>(R.id.ivBack)
-//            ivBack.setOnClickListener { view -> clickListener?.onClick(view) }
-//        } catch (e: Exception) {
-//            Helper.logException(activity, e)
-//        }
-
-        /*try {
-            val toolbar = v.findViewById<Toolbar>(R.id.toolbar)
-            toolbar.navigationIcon = null
-            toolbar.title = ""
-            toolbar.setNavigationOnClickListener { view -> clickListener?.onClick(view) }
-        } catch (e: Exception) {
-            Helper.logException(activity, e)
-        }*/
+        }*//*
 
     }
+*/
+
+
 
 
     open fun showDatePicker(d: DatePickerListener, initDate: Date? = null){

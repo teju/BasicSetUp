@@ -34,7 +34,7 @@ open class BaseDialogFragment : DialogFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         v?.let {
-            setBackButtonToolbarStyleOne(v!!)
+           // setBackButtonToolbarStyleOne(v!!)
         }
 
         dialog?.let {
@@ -49,23 +49,23 @@ open class BaseDialogFragment : DialogFragment() {
         return activity as ActivityMain
     }
 
-    fun setBackButtonToolbarStyleOne(v: View) {
-        try {
-            val llBack = v.findViewById<LinearLayout>(R.id.llBack)
-            llBack.setOnClickListener { home().onBackPressed() }
-        } catch (e: Exception) {
-            Helper.logException(activity, e)
-        }
-
-    }
-
-    fun setBackButtonToolbarStyleTwo(v: View, clickListener: View.OnClickListener?) {
-        try {
-            val llBack = v.findViewById<LinearLayout>(R.id.llBack)
-            llBack.setOnClickListener { view -> clickListener?.onClick(view) }
-        } catch (e: Exception) {
-            Helper.logException(activity, e)
-        }
-    }
+//    fun setBackButtonToolbarStyleOne(v: View) {
+//        try {
+//            val llBack = v.findViewById<LinearLayout>(R.id.llBack)
+//            llBack.setOnClickListener { home().onBackPressed() }
+//        } catch (e: Exception) {
+//            Helper.logException(activity, e)
+//        }
+//
+//    }
+//
+//    fun setBackButtonToolbarStyleTwo(v: View, clickListener: View.OnClickListener?) {
+//        try {
+//            val llBack = v.findViewById<LinearLayout>(R.id.llBack)
+//            llBack.setOnClickListener { view -> clickListener?.onClick(view) }
+//        } catch (e: Exception) {
+//            Helper.logException(activity, e)
+//        }
+//    }
 
 }

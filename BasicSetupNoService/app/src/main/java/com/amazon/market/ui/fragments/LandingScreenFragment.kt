@@ -8,15 +8,12 @@ import android.view.ViewGroup
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import com.amazon.market.R
-import com.amazon.market.ui.adapters.BannerAdapter
 import kotlinx.android.synthetic.main.fragment_landing_screen.*
 
 class LandingScreenFragment : BaseFragment() ,View.OnClickListener{
     override fun onClick(v: View?) {
         when(v?.id) {
-            R.id.get_started -> {
-                home().setFragment(LoginFragment())
-            }
+
         }
     }
 
@@ -34,22 +31,7 @@ class LandingScreenFragment : BaseFragment() ,View.OnClickListener{
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initBanner()
-        get_started.setOnClickListener(this)
     }
 
-    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
-    fun initBanner() {
-        banners.add(R.drawable.logo_big)
-        val homeBannerAdapter = BannerAdapter(activity!!.applicationContext, banners)
-        vp.setAdapter(homeBannerAdapter)
-        vp.setSelectedColor(ContextCompat.getColor(activity!!.applicationContext, R.color.theme_blue))
-        vp.setUnselectedColor(ContextCompat.getColor(activity!!.applicationContext, R.color.DarkGray))
-        vp.setShowIndicator(true)
-        vp.setAutoPlaying(true)
 
-        homeBannerAdapter.bannerAdapterListener = object  : BannerAdapter.BanneradapterListener{
-            override fun onClick(position: Int) {}
-        }
-    }
 }

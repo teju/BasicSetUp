@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Market</string>
+    <string name="app_name">Resume</string>
     <string name="action_settings">Settings</string>
     <string name="session_expired">Session Expired</string>
     <string name="you_have_been_loggedout">You have been logged out due to login in another device.</string>

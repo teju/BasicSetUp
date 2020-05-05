@@ -60,9 +60,5 @@
         <attr name="centerScale" format="float"/>
         <attr name="moveSpeed" format="float"/>
     </declare-styleable>
-    <declare-styleable name="CustomTextInputLayout" >
-        <attr name="mainHintTextSize" format="dimension" />
-        <attr name="tStyle" format="string"></attr>
-    </declare-styleable>
 
 </resources>
