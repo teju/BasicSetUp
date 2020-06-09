@@ -1,0 +1,3 @@
+include ':common_lib'
+include ':app'
+rootProject.name = "Maa Tiffens"

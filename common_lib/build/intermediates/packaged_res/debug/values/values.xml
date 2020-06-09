@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="imageSource">
+        <item>Gallery</item>
+        <item>Camera</item>
+    </string-array>
+    <color name="AliceBlue">#F0F8FF</color>
+    <color name="AntiqueWhite">#FAEBD7</color>
+    <color name="Aqua">#00FFFF</color>
+    <color name="Aquamarine">#7FFFD4</color>
+    <color name="Azure">#F0FFFF</color>
+    <color name="Beige">#F5F5DC</color>
+    <color name="Bisque">#FFE4C4</color>
+    <color name="Black">#000000</color>
+    <color name="BlanchedAlmond">#FFEBCD</color>
+    <color name="Blue">#0000FF</color>
+    <color name="BlueViolet">#8A2BE2</color>
+    <color name="Brown">#A52A2A</color>
+    <color name="BurlyWood">#DEB887</color>
+    <color name="CadetBlue">#5F9EA0</color>
+    <color name="Chartreuse">#7FFF00</color>
+    <color name="Chocolate">#D2691E</color>
+    <color name="Coral">#FF7F50</color>
+    <color name="CornflowerBlue">#6495ED</color>
+    <color name="Cornsilk">#FFF8DC</color>
+    <color name="Crimson">#DC143C</color>
+    <color name="Cyan">#00FFFF</color>
+    <color name="DarkBlue">#00008B</color>
+    <color name="DarkCyan">#008B8B</color>
+    <color name="DarkGoldenrod">#B8860B</color>
+    <color name="DarkGray">#A9A9A9</color>
+    <color name="DarkGreen">#006400</color>
+    <color name="DarkKhaki">#BDB76B</color>
+    <color name="DarkMagenta">#8B008B</color>
+    <color name="DarkOliveGreen">#556B2F</color>
+    <color name="DarkOrange">#FF8C00</color>
+    <color name="DarkOrchid">#9932CC</color>
+    <color name="DarkRed">#8B0000</color>
+    <color name="DarkSalmon">#E9967A</color>
+    <color name="DarkSeaGreen">#8FBC8F</color>
+    <color name="DarkSlateBlue">#483D8B</color>
+    <color name="DarkSlateGray">#2F4F4F</color>
+    <color name="DarkTurquoise">#00CED1</color>
+    <color name="DarkViolet">#9400D3</color>
+    <color name="DeepPink">#FF1493</color>
+    <color name="DeepSkyBlue">#00BFFF</color>
+    <color name="DimGray">#696969</color>
+    <color name="DodgerBlue">#1E90FF</color>
+    <color name="FireBrick">#B22222</color>
+    <color name="FloralWhite">#FFFAF0</color>
+    <color name="ForestGreen">#228B22</color>
+    <color name="Fuchsia">#FF00FF</color>
+    <color name="Gainsboro">#DCDCDC</color>
+    <color name="GhostWhite">#F8F8FF</color>
+    <color name="Gold">#FFD700</color>
+    <color name="Goldenrod">#DAA520</color>
+    <color name="Gray">#808080</color>
+    <color name="Green">#008000</color>
+    <color name="GreenYellow">#ADFF2F</color>
+    <color name="Honeydew">#F0FFF0</color>
+    <color name="HotPink">#FF69B4</color>
+    <color name="IndianRed">#CD5C5C</color>
+    <color name="Indigo">#4B0082</color>
+    <color name="Ivory">#FFFFF0</color>
+    <color name="Khaki">#F0E68C</color>
+    <color name="Lavender">#E6E6FA</color>
+    <color name="LavenderBlush">#FFF0F5</color>
+    <color name="LawnGreen">#7CFC00</color>
+    <color name="LemonChiffon">#FFFACD</color>
+    <color name="LightBlue">#ADD8E6</color>
+    <color name="LightCoral">#F08080</color>
+    <color name="LightCyan">#E0FFFF</color>
+    <color name="LightGoldenrodYellow">#FAFAD2</color>
+    <color name="LightGreen">#90EE90</color>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="LightPink">#FFB6C1</color>
+    <color name="LightSalmon">#FFA07A</color>
+    <color name="LightSeaGreen">#20B2AA</color>
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="LightSlateGray">#778899</color>
+    <color name="LightSteelBlue">#B0C4DE</color>
+    <color name="LightYellow">#FFFFE0</color>
+    <color name="Lime">#00FF00</color>
+    <color name="LimeGreen">#32CD32</color>
+    <color name="Linen">#FAF0E6</color>
+    <color name="Magenta">#FF00FF</color>
+    <color name="Maroon">#800000</color>
+    <color name="MediumAquamarine">#66CDAA</color>
+    <color name="MediumBlue">#0000CD</color>
+    <color name="MediumOrchid">#BA55D3</color>
+    <color name="MediumPurple">#9370DB</color>
+    <color name="MediumSeaGreen">#3CB371</color>
+    <color name="MediumSlateBlue">#7B68EE</color>
+    <color name="MediumSpringGreen">#00FA9A</color>
+    <color name="MediumTurquoise">#48D1CC</color>
+    <color name="MediumVioletRed">#C71585</color>
+    <color name="MidnightBlue">#191970</color>
+    <color name="MintCream">#F5FFFA</color>
+    <color name="MistyRose">#FFE4E1</color>
+    <color name="Moccasin">#FFE4B5</color>
+    <color name="NavajoWhite">#FFDEAD</color>
+    <color name="Navy">#000080</color>
+    <color name="OldLace">#FDF5E6</color>
+    <color name="Olive">#808000</color>
+    <color name="OliveDrab">#6B8E23</color>
+    <color name="Orange">#FFA500</color>
+    <color name="OrangeRed">#FF4500</color>
+    <color name="Orchid">#DA70D6</color>
+    <color name="PaleGoldenrod">#EEE8AA</color>
+    <color name="PaleGreen">#98FB98</color>
+    <color name="PaleTurquoise">#AFEEEE</color>
+    <color name="PaleVioletRed">#DB7093</color>
+    <color name="PapayaWhip">#FFEFD5</color>
+    <color name="PeachPuff">#FFDAB9</color>
+    <color name="Peru">#CD853F</color>
+    <color name="Pink">#FFC0CB</color>
+    <color name="Plum">#DDA0DD</color>
+    <color name="PowderBlue">#B0E0E6</color>
+    <color name="Purple">#800080</color>
+    <color name="Red">#FF0000</color>
+    <color name="RosyBrown">#BC8F8F</color>
+    <color name="RoyalBlue">#4169E1</color>
+    <color name="SaddleBrown">#8B4513</color>
+    <color name="Salmon">#FA8072</color>
+    <color name="SandyBrown">#F4A460</color>
+    <color name="SeaGreen">#2E8B57</color>
+    <color name="Seashell">#FFF5EE</color>
+    <color name="Sienna">#A0522D</color>
+    <color name="Silver">#C0C0C0</color>
+    <color name="SkyBlue">#87CEEB</color>
+    <color name="SlateBlue">#6A5ACD</color>
+    <color name="SlateGray">#708090</color>
+    <color name="Snow">#FFFAFA</color>
+    <color name="SpringGreen">#00FF7F</color>
+    <color name="SteelBlue">#4682B4</color>
+    <color name="Tan">#D2B48C</color>
+    <color name="Teal">#008080</color>
+    <color name="Thistle">#D8BFD8</color>
+    <color name="Tomato">#FF6347</color>
+    <color name="Turquoise">#40E0D0</color>
+    <color name="Violet">#EE82EE</color>
+    <color name="Wheat">#F5DEB3</color>
+    <color name="White">#FFFFFF</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="Yellow">#FFFF00</color>
+    <color name="YellowGreen">#9ACD32</color>
+    <color name="android_green">#FFA4C639</color>
+    <color name="background">#FFEFEFEF</color>
+    <color name="dark_transparent_grey">#99333333</color>
+    <color name="holo_blue">#FF00DDFF</color>
+    <color name="honeycombish_blue">#FF58BAED</color>
+    <color name="myhealth_red">#E15E55</color>
+    <color name="pressed_apptheme">#CC4C9EB6</color>
+    <color name="soft_grey">#FFDDDDDD</color>
+    <color name="soft_transparent_grey">#77DDDDDD</color>
+    <color name="sparks_yellow">#FFD342</color>
+    <color name="themeGold">#C8AB58</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_Aquamarine">#EE7FFFD4</color>
+    <color name="transparent_grey">#77333333</color>
+    <color name="transparent_lime_green">#7732CD32</color>
+    <color name="transparent_map">#337FFFD4</color>
+    <color name="unable_Black">#8D8D8D</color>
+    <color name="unable_myhealth_red">#EDABA8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_transparent">#40FFFFFF</color>
+    <color name="whitegray">#FEFEFE</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="maatiffens__horizontal_margin">15dp/dimen>
+    <dimen name="maatiffens__horizontal_margin_small">10dp</dimen>
+    <dimen name="maatiffens__button_padding">20dp</dimen></dimen>
+    <dimen name="maatiffens__small_margin">5dp</dimen>
+    <dimen name="maatiffens__vertical_margin">7dp</dimen>
+    <dimen name="maatiffens__vertical_margin_big">15dp</dimen>
+    <dimen name="progress_action_padding">8dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="tab_host_default_height">48dp</dimen>
+    <plurals name="days">
+        <item quantity="zero">@string/maatiffens__days</item>
+        <item quantity="one">@string/maatiffens__day</item>
+        <item quantity="other">@string/maatiffens__days</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="zero">@string/maatiffens__hours</item>
+        <item quantity="one">@string/maatiffens__hour</item>
+        <item quantity="other">@string/maatiffens__hours</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="zero">@string/maatiffens__minutes</item>
+        <item quantity="one">@string/maatiffens__minute</item>
+        <item quantity="other"> @string/maatiffens__minutes</item>
+    </plurals>
+    <string name="app_name">maatiffens_libs</string>
+    <string name="camera">Camera</string>
+    <string name="cancel">Cancel</string>
+    <string name="font_bold">RobotoCondensed-Bold.ttf</string>
+    <string name="font_bold_italic">RobotoCondensed-BoldItalic.ttf</string>
+    <string name="font_italic">RobotoCondensed-Italic.ttf</string>
+    <string name="font_normal">RobotoCondensed-Regular.ttf</string>
+    <string name="gallery">Gallery</string>
+    <string name="maatiffens__cancel">Cancel</string>
+    <string name="maatiffens__conn_fail">Failed to connect to server</string>
+    <string name="maatiffens__conn_timeout">We are experiencing high traffic. Sorry for the inconvenience, we should be back in few minutes</string>
+    <string name="maatiffens__day">Day</string>
+    <string name="maatiffens__days">Days</string>
+    <string name="maatiffens__done">Done</string>
+    <string name="maatiffens__hour">Hour</string>
+    <string name="maatiffens__hours">Hours</string>
+    <string name="maatiffens__loading">Loading…</string>
+    <string name="maatiffens__minute">Minute</string>
+    <string name="maatiffens__minutes">Minutes</string>
+    <string name="maatiffens__more">More</string>
+    <string name="maatiffens__network_error">Internal Error</string>
+    <string name="maatiffens__no">No</string>
+    <string name="maatiffens__no_internet">No Internet connection</string>
+    <string name="maatiffens__no_more">No More Result</string>
+    <string name="maatiffens__ok">OK</string>
+    <string name="maatiffens__open_in_browser">Browser</string>
+    <string name="maatiffens__refresh">Refresh</string>
+    <string name="maatiffens__required_field">Please provide:</string>
+    <string name="maatiffens__retry">Retry</string>
+    <string name="maatiffens__show_more">Show More</string>
+    <string name="maatiffens__unknown_response">Unknown response from server. Please try again later</string>
+    <string name="maatiffens__yes">Yes</string>
+    <string name="select_image">Select Image Source</string>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+    </style>
+    <style name="textLarge" parent="android:Widget.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+    <style name="textMedium" parent="android:Widget.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="textSmall" parent="android:Widget.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <declare-styleable name="CurrencyEditText">
+        <attr name="android:layout_gravity"/>
+    </declare-styleable>
+    <declare-styleable name="DiagonalLayout">
+        <attr format="integer" name="diagonal_angle"/>
+        <attr format="boolean" name="diagonal_handleMargins"/>
+        <attr format="enum" name="diagonal_position">
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="bottom" value="4"/>
+            <enum name="top" value="8"/>
+        </attr>
+        <attr format="enum" name="diagonal_direction">
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="PinEntryEditText">
+        <attr format="enum" name="pinAnimationType">
+            <enum name="popIn" value="0"/>
+            <enum name="fromBottom" value="1"/>
+            <enum name="none" value="-1"/>
+        </attr>
+        <attr format="string" name="pinCharacterMask"/>
+        <attr format="string" name="pinRepeatedHint"/>
+        <attr format="dimension" name="pinLineStroke"/>
+        <attr format="dimension" name="pinLineStrokeSelected"/>
+        <attr format="dimension" name="pinCharacterSpacing"/>
+        <attr format="dimension" name="pinTextBottomPadding"/>
+        <attr format="dimension" name="pinTextTopPadding"/>
+        <attr format="color" name="pinLineColors"/>
+        <attr format="reference" name="pinBackgroundDrawable"/>
+        <attr format="boolean" name="pinBackgroundIsSquare"/>
+        <attr format="dimension" name="pinCharHeight"/>
+        <attr format="dimension" name="pinCharWidth"/>
+
+    </declare-styleable>
+    <declare-styleable name="maatiffens">
+        <attr format="color" name="loadingMessageColor"/>
+        <attr format="color" name="loadingErrorTitleColor"/>
+        <attr format="color" name="loadingErrorMessageColor"/>
+        <attr format="string" name="loadingMessage"/>
+        <attr format="string" name="loadingErrorNetworkTitle"/>
+        <attr format="string" name="loadingErrorNoInternetMessage"/>
+        <attr format="string" name="loadingErrorUnknownResponseMessage"/>
+        <attr format="string" name="loadingRetryButtonText"/>
+        <attr format="boolean" name="loadingGifNila"/>
+    </declare-styleable>
+</resources>

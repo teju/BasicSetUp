@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Maa Tiffens</string>
+    <string name="ok">Ok</string>
+    <string name="no_connection">Poor or no internet connection found.\nPlease check your internet connection.</string>
+</resources>

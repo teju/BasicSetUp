@@ -1,0 +1,36 @@
+<resources>
+	<string name="app_name">maatiffens_libs</string>
+    <string name="maatiffens__retry">Retry</string>
+    <string name="maatiffens__network_error">Internal Error</string>
+    <string name="maatiffens__no_internet">No Internet connection</string>
+    <string name="maatiffens__unknown_response">Unknown response from server. Please try again later</string>
+    <string name="maatiffens__conn_timeout">We are experiencing high traffic. Sorry for the inconvenience, we should be back in few minutes</string>
+    <string name="maatiffens__conn_fail">Failed to connect to server</string>
+	<string name="maatiffens__yes">Yes</string>
+    <string name="maatiffens__no">No</string>
+    <string name="maatiffens__more">More</string>
+    <string name="maatiffens__done">Done</string>
+	<string name="maatiffens__cancel">Cancel</string>
+	<string name="maatiffens__ok">OK</string>
+	<string name="maatiffens__required_field">Please provide:</string>
+	<string name="maatiffens__loading">Loading&#8230;</string>
+	<string name="maatiffens__show_more">Show More</string>
+	<string name="maatiffens__no_more">No More Result</string>
+	<string name="maatiffens__minute">Minute</string>
+	<string name="maatiffens__minutes">Minutes</string>
+	<string name="maatiffens__hour">Hour</string>
+	<string name="maatiffens__hours">Hours</string>
+	<string name="maatiffens__day">Day</string>
+	<string name="maatiffens__days">Days</string>
+	<string name="maatiffens__open_in_browser">Browser</string>
+	<string name="maatiffens__refresh">Refresh</string>
+	<string name="cancel">Cancel</string>
+	<string name="camera">Camera</string>
+	<string name="gallery">Gallery</string>
+	<string name="select_image">Select Image Source</string>
+
+    <string name="font_normal">RobotoCondensed-Regular.ttf</string>
+    <string name="font_italic">RobotoCondensed-Italic.ttf</string>
+    <string name="font_bold_italic">RobotoCondensed-BoldItalic.ttf</string>
+    <string name="font_bold">RobotoCondensed-Bold.ttf</string>
+</resources>
