@@ -1,11 +1,11 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.maatiffens.common_library" >
+3    package="com.common.common_library" >
 4
 5    <uses-sdk
 6        android:minSdkVersion="21"
-6-->/Users/tejaswinin/Documents/Freelancing_Basavaraj/MaaTiffens/common_lib/src/main/AndroidManifest.xml
+6-->/Users/tejaswinin/Documents/me/BasicSetUp/common_lib/src/main/AndroidManifest.xml
 7        android:targetSdkVersion="28" />
-7-->/Users/tejaswinin/Documents/Freelancing_Basavaraj/MaaTiffens/common_lib/src/main/AndroidManifest.xml
+7-->/Users/tejaswinin/Documents/me/BasicSetUp/common_lib/src/main/AndroidManifest.xml
 8
 9</manifest>

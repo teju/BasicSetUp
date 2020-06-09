@@ -3,8 +3,6 @@ package com.maa.tiffens.etc
 import android.app.Activity
 import android.content.Context
 import android.graphics.Bitmap
-import android.location.Address
-import android.location.Geocoder
 import android.net.ConnectivityManager
 import android.os.Environment
 import android.util.DisplayMetrics
@@ -12,8 +10,8 @@ import android.util.Log
 import android.view.inputmethod.InputMethodManager
 import androidx.annotation.Nullable
 
-import com.maatiffens.libs.helpers.HTTPAsyncTask
-import com.maatiffens.libs.objects.Response
+import com.common.libs.helpers.HTTPAsyncTask
+import com.common.libs.objects.Response
 import java.io.*
 import android.util.Patterns
 import android.text.TextUtils
@@ -23,7 +21,6 @@ import android.util.TypedValue
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 import com.maa.tiffens.R
-import org.json.JSONObject
 import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*
@@ -76,7 +73,7 @@ open class Helper  {
     }
 
     fun saveImage(result: Bitmap, s: String) {
-        val sd = File(Environment.getExternalStorageDirectory().toString() + "/maatiffens");
+        val sd = File(Environment.getExternalStorageDirectory().toString() + "/common");
         if(!sd.exists()) {
             sd.mkdir()
         }

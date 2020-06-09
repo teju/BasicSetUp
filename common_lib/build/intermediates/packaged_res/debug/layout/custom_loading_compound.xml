@@ -26,7 +26,7 @@
             android:id="@+id/textViewLoadingMessage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/maatiffens__loading"
+            android:text="@string/common__loading"
             android:gravity="center"
             android:fontFamily="@font/poppins_regular"
             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -69,10 +69,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_marginBottom="@dimen/maatiffens__vertical_margin"
-            android:layout_marginLeft="@dimen/maatiffens__horizontal_margin"
-            android:layout_marginRight="@dimen/maatiffens__horizontal_margin"
-            android:layout_marginTop="@dimen/maatiffens__vertical_margin"
+            android:layout_marginBottom="@dimen/common__vertical_margin"
+            android:layout_marginLeft="@dimen/common__horizontal_margin"
+            android:layout_marginRight="@dimen/common__horizontal_margin"
+            android:layout_marginTop="@dimen/common__vertical_margin"
             android:textSize="16sp"
             android:textColor="@color/DarkGray"
             android:textIsSelectable="false"
@@ -87,7 +87,7 @@
             android:paddingRight="10dp"
             android:background="@drawable/selector_btn_border__states"
             android:layout_gravity="center_horizontal"
-            android:text="@string/maatiffens__retry" />
+            android:text="@string/common__retry" />
 
     </LinearLayout>
 

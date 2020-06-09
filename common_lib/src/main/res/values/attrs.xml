@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="maatiffens">
+    <declare-styleable name="common">
         <attr name="loadingMessageColor" format="color"/>
         <attr name="loadingErrorTitleColor" format="color"/>
         <attr name="loadingErrorMessageColor" format="color"/>

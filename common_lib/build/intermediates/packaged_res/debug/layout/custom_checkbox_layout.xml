@@ -5,14 +5,14 @@
     android:layout_height="wrap_content"
     android:background="@color/White"
     android:orientation="vertical"
-    android:paddingLeft="@dimen/maatiffens__horizontal_margin"
-    tools:context="com.maatiffens.libs.fitnesschamp.generics.GenericAsynListActivity" >
+    android:paddingLeft="@dimen/common__horizontal_margin"
+    tools:context="com.common.libs.fitnesschamp.generics.GenericAsynListActivity" >
 
     <CheckBox
         android:id="@+id/checkBoxList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="@dimen/maatiffens__vertical_margin_big"
-        android:paddingTop="@dimen/maatiffens__vertical_margin_big" />
+        android:paddingBottom="@dimen/common__vertical_margin_big"
+        android:paddingTop="@dimen/common__vertical_margin_big" />
 
 </LinearLayout>

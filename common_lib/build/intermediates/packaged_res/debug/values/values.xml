@@ -167,64 +167,64 @@
     <color name="whitegray">#FEFEFE</color>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="common__horizontal_margin">15dp/dimen>
+    <dimen name="common__horizontal_margin_small">10dp</dimen>
+    <dimen name="common__button_padding">20dp</dimen></dimen>
+    <dimen name="common__small_margin">5dp</dimen>
+    <dimen name="common__vertical_margin">7dp</dimen>
+    <dimen name="common__vertical_margin_big">15dp</dimen>
     <dimen name="list_padding">10dp</dimen>
-    <dimen name="maatiffens__horizontal_margin">15dp/dimen>
-    <dimen name="maatiffens__horizontal_margin_small">10dp</dimen>
-    <dimen name="maatiffens__button_padding">20dp</dimen></dimen>
-    <dimen name="maatiffens__small_margin">5dp</dimen>
-    <dimen name="maatiffens__vertical_margin">7dp</dimen>
-    <dimen name="maatiffens__vertical_margin_big">15dp</dimen>
     <dimen name="progress_action_padding">8dp</dimen>
     <dimen name="shadow_width">15dp</dimen>
     <dimen name="slidingmenu_offset">60dp</dimen>
     <dimen name="tab_host_default_height">48dp</dimen>
     <plurals name="days">
-        <item quantity="zero">@string/maatiffens__days</item>
-        <item quantity="one">@string/maatiffens__day</item>
-        <item quantity="other">@string/maatiffens__days</item>
+        <item quantity="zero">@string/common__days</item>
+        <item quantity="one">@string/common__day</item>
+        <item quantity="other">@string/common__days</item>
     </plurals>
     <plurals name="hours">
-        <item quantity="zero">@string/maatiffens__hours</item>
-        <item quantity="one">@string/maatiffens__hour</item>
-        <item quantity="other">@string/maatiffens__hours</item>
+        <item quantity="zero">@string/common__hours</item>
+        <item quantity="one">@string/common__hour</item>
+        <item quantity="other">@string/common__hours</item>
     </plurals>
     <plurals name="minutes">
-        <item quantity="zero">@string/maatiffens__minutes</item>
-        <item quantity="one">@string/maatiffens__minute</item>
-        <item quantity="other"> @string/maatiffens__minutes</item>
+        <item quantity="zero">@string/common__minutes</item>
+        <item quantity="one">@string/common__minute</item>
+        <item quantity="other"> @string/common__minutes</item>
     </plurals>
-    <string name="app_name">maatiffens_libs</string>
+    <string name="app_name">common_libs</string>
     <string name="camera">Camera</string>
     <string name="cancel">Cancel</string>
+    <string name="common__cancel">Cancel</string>
+    <string name="common__conn_fail">Failed to connect to server</string>
+    <string name="common__conn_timeout">We are experiencing high traffic. Sorry for the inconvenience, we should be back in few minutes</string>
+    <string name="common__day">Day</string>
+    <string name="common__days">Days</string>
+    <string name="common__done">Done</string>
+    <string name="common__hour">Hour</string>
+    <string name="common__hours">Hours</string>
+    <string name="common__loading">Loading…</string>
+    <string name="common__minute">Minute</string>
+    <string name="common__minutes">Minutes</string>
+    <string name="common__more">More</string>
+    <string name="common__network_error">Internal Error</string>
+    <string name="common__no">No</string>
+    <string name="common__no_internet">No Internet connection</string>
+    <string name="common__no_more">No More Result</string>
+    <string name="common__ok">OK</string>
+    <string name="common__open_in_browser">Browser</string>
+    <string name="common__refresh">Refresh</string>
+    <string name="common__required_field">Please provide:</string>
+    <string name="common__retry">Retry</string>
+    <string name="common__show_more">Show More</string>
+    <string name="common__unknown_response">Unknown response from server. Please try again later</string>
+    <string name="common__yes">Yes</string>
     <string name="font_bold">RobotoCondensed-Bold.ttf</string>
     <string name="font_bold_italic">RobotoCondensed-BoldItalic.ttf</string>
     <string name="font_italic">RobotoCondensed-Italic.ttf</string>
     <string name="font_normal">RobotoCondensed-Regular.ttf</string>
     <string name="gallery">Gallery</string>
-    <string name="maatiffens__cancel">Cancel</string>
-    <string name="maatiffens__conn_fail">Failed to connect to server</string>
-    <string name="maatiffens__conn_timeout">We are experiencing high traffic. Sorry for the inconvenience, we should be back in few minutes</string>
-    <string name="maatiffens__day">Day</string>
-    <string name="maatiffens__days">Days</string>
-    <string name="maatiffens__done">Done</string>
-    <string name="maatiffens__hour">Hour</string>
-    <string name="maatiffens__hours">Hours</string>
-    <string name="maatiffens__loading">Loading…</string>
-    <string name="maatiffens__minute">Minute</string>
-    <string name="maatiffens__minutes">Minutes</string>
-    <string name="maatiffens__more">More</string>
-    <string name="maatiffens__network_error">Internal Error</string>
-    <string name="maatiffens__no">No</string>
-    <string name="maatiffens__no_internet">No Internet connection</string>
-    <string name="maatiffens__no_more">No More Result</string>
-    <string name="maatiffens__ok">OK</string>
-    <string name="maatiffens__open_in_browser">Browser</string>
-    <string name="maatiffens__refresh">Refresh</string>
-    <string name="maatiffens__required_field">Please provide:</string>
-    <string name="maatiffens__retry">Retry</string>
-    <string name="maatiffens__show_more">Show More</string>
-    <string name="maatiffens__unknown_response">Unknown response from server. Please try again later</string>
-    <string name="maatiffens__yes">Yes</string>
     <string name="select_image">Select Image Source</string>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
         
@@ -278,7 +278,7 @@
         <attr format="dimension" name="pinCharWidth"/>
 
     </declare-styleable>
-    <declare-styleable name="maatiffens">
+    <declare-styleable name="common">
         <attr format="color" name="loadingMessageColor"/>
         <attr format="color" name="loadingErrorTitleColor"/>
         <attr format="color" name="loadingErrorMessageColor"/>

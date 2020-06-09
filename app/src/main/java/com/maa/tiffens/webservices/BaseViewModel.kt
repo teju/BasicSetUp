@@ -4,9 +4,9 @@ import android.app.Application
 import android.content.Context
 import androidx.lifecycle.AndroidViewModel
 
-import com.maatiffens.libs.helpers.BaseConstants
-import com.maatiffens.libs.helpers.BaseKeys
-import com.maatiffens.libs.objects.Response
+import com.common.libs.helpers.BaseConstants
+import com.common.libs.helpers.BaseKeys
+import com.common.libs.objects.Response
 import com.maa.tiffens.etc.Keys
 import com.maa.tiffens.etc.SingleLiveEvent
 
@@ -60,10 +60,10 @@ open class BaseViewModel(application: Application) : AndroidViewModel(applicatio
             if (response.statusCode == BaseConstants.STATUS_SUCCESS) {
                 return json
             } else if (response.statusCode == BaseConstants.STATUS_TIMEOUT) {
-                errorMessageModel.message = context.getString(com.maatiffens.common_library.R.string.maatiffens__conn_timeout)
+                errorMessageModel.message = context.getString(com.common.common_library.R.string.common__conn_timeout)
                 errorMessage.postValue(errorMessageModel)
             } else if (response.statusCode == BaseConstants.STATUS_NO_CONNECTION) {
-                errorMessageModel.message = context.getString(com.maatiffens.common_library.R.string.maatiffens__conn_fail)
+                errorMessageModel.message = context.getString(com.common.common_library.R.string.common__conn_fail)
                 errorMessage.postValue(errorMessageModel)
             } else {
 
@@ -96,16 +96,16 @@ open class BaseViewModel(application: Application) : AndroidViewModel(applicatio
     fun showUnknowResponseErrorMessage() {
         /*  errorMessage.postValue(createErrorMessageObject(
           false,
-            getApplication<Application>().getString(com.maatiffens.common_library.R.string.maatiffens__network_error),
-            getApplication<Application>().getString(com.maatiffens.common_library.R.string.maatiffens__unknown_response)
+            getApplication<Application>().getString(com.common.common_library.R.string.common__network_error),
+            getApplication<Application>().getString(com.common.common_library.R.string.common__unknown_response)
         ))*/
     }
 
     fun showUnknowResponseErrorMessage(errorStatusCode: String) {
         /*errorMessage.postValue(createErrorMessageObject(
             false,
-            getApplication<Application>().getString(com.maatiffens.common_library.R.string.maatiffens__network_error),
-            String.format("%s (%s)", getApplication<Application>().getString(com.maatiffens.common_library.R.string.maatiffens__unknown_response), errorStatusCode)
+            getApplication<Application>().getString(com.common.common_library.R.string.common__network_error),
+            String.format("%s (%s)", getApplication<Application>().getString(com.common.common_library.R.string.common__unknown_response), errorStatusCode)
         ))*/
     }
 

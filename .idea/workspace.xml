@@ -1,14 +1,385 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5514f53c-148e-41bf-a1db-3a8da63473fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Screen Shot 2016-08-10 at 14.16.48.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/ActivityMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/ActivityMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/MaaTiffensApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/MaaTiffensApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/callback/NotifyListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/callback/NotifyListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/callback/PermissionListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/callback/PermissionListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/callback/RequestListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/callback/RequestListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/etc/Helper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/etc/Helper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/etc/Keys.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/etc/Keys.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/ui/dialog/NotifyDialogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/ui/dialog/NotifyDialogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/ui/fragments/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/ui/fragments/BaseFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/webservices/BaseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maa/tiffens/webservices/BaseViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/.transforms/3021c5b9f6412a571744eee878f98726.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/.transforms/3021c5b9f6412a571744eee878f98726/classes/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/generated/source/buildConfig/debug/com/maatiffens/common_library/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/generated/source/buildConfig/debug/com/common/common_library/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/aar_main_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/aar_main_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/annotations_zip/debug/annotations.zip" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/annotations_zip/debug/annotations.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compile_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/anim_fadein.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/anim_fadein.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/anim_fadeout.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/anim_fadeout.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/anim_rotate.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/anim_rotate.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_ic_progress_dark.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_ic_progress_dark.9.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_ic_progress_light.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_ic_progress_light.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_ssc_nila_dab.gif.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_ssc_nila_dab.gif.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_ic_progress_dark.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_ic_progress_dark.9.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_ic_progress_light.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_ic_progress_light.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_ic_progress_dark.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_ic_progress_dark.9.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_ic_progress_light.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_ic_progress_light.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-xxhdpi-v4_chevron_down.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-xxhdpi-v4_chevron_down.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-xxhdpi-v4_dropdown.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-xxhdpi-v4_dropdown.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-xxhdpi-v4_ic_progress_dark.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-xxhdpi-v4_ic_progress_dark.9.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-xxhdpi-v4_ic_progress_light.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable-xxhdpi-v4_ic_progress_light.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_divider_inset.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_divider_inset.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_ic_check_black_24dp.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_ic_check_black_24dp.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_ic_clear.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_ic_clear.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_ic_close_black_24dp.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_ic_close_black_24dp.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_ic_cross_dark.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_ic_cross_dark.9.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_ic_cross_light.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_ic_cross_light.9.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_icon_dot_clear_grey.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_icon_dot_clear_grey.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_list_focused_ssc.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_list_focused_ssc.9.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_list_pressed_ssc.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_list_pressed_ssc.9.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_loading_animation.gif.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_loading_animation.gif.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_logo.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_logo.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_rounded_corner_btn_border_disabled.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_rounded_corner_btn_border_disabled.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_rounded_corner_btn_border_enabled.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_rounded_corner_btn_border_enabled.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_scrollbar_handle_holo_dark.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_scrollbar_handle_holo_dark.9.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_scrollbar_handle_holo_light.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_scrollbar_handle_holo_light.9.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_selectable_background.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_selectable_background.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_selector_btn_border__states.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/drawable_selector_btn_border__states.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/font_playfairdisplay.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/font_playfairdisplay.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/font_playfairdisplay_black.ttf.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/font_playfairdisplay_black.ttf.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/font_playfairdisplay_blackitalic.ttf.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/font_playfairdisplay_blackitalic.ttf.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/font_poppins_bold.ttf.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/font_poppins_bold.ttf.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/font_poppins_bolditalic.ttf.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/font_poppins_bolditalic.ttf.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/font_poppins_italic.ttf.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/font_poppins_italic.ttf.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/font_poppins_regular.ttf.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/font_poppins_regular.ttf.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_cell_header.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_cell_header.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_cell_log.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_cell_log.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_cell_showmore.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_cell_showmore.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_cell_single.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_cell_single.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_cell_single_spinner.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_cell_single_spinner.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_custom_checkbox_layout.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_custom_checkbox_layout.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_custom_loading_compound.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_custom_loading_compound.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_fragment_generic_list.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_fragment_generic_list.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_fragment_log.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_fragment_log.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_modal_bottomsheet_media_selection.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/layout_modal_bottomsheet_media_selection.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/xml_provider_paths3.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/compiled_local_resources/debug/out/xml_provider_paths3.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/adapters/ChecklistAdapter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/adapters/ChecklistAdapter$ViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/adapters/ChecklistAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/adapters/PagerAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/adapters/SectionedSimpleAdapter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/adapters/SectionedSimpleAdapter$ViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/adapters/SectionedSimpleAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/adapters/SimpleImageAdapter$ViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/adapters/SimpleImageAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/adapters/SimpleObjectAdapter$ViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/adapters/SimpleObjectAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/adapters/TabsAdapter$DummyTabFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/adapters/TabsAdapter$TabInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/adapters/TabsAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/common_library/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/fragments/DatePickerFragment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/fragments/DatePickerFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/fragments/TimePickerFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/generics/GenericFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/generics/GenericFragmentActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/generics/GenericListFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/Base64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$ConfirmListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper$PromptListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseKeys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseUIHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseUIHelper$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseUIHelper$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseUIHelper$4$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseUIHelper$4$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseUIHelper$4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseUIHelper$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseUIHelper$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseUIHelper$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseUIHelper$ImagePreviewListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseUIHelper$UploadImageListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/BaseUIHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/CSVReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/CertHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/CheckableObjectInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableAutoCompleteTextViewAsDropDown$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableAutoCompleteTextViewAsDropDown$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableAutoCompleteTextViewAsDropDown$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableAutoCompleteTextViewAsDropDown$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableAutoCompleteTextViewAsDropDown$OnClearListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableAutoCompleteTextViewAsDropDown$OnSpinnerEventsListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableAutoCompleteTextViewAsDropDown$OnTextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableAutoCompleteTextViewAsDropDown$OnTextListener2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableAutoCompleteTextViewAsDropDown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableEditText$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableEditText$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableEditText$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableEditText$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableEditText$AfterTextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableEditText$OnClearListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableEditText$OnTextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableEditText$OnTextListener2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/ClearableEditText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/CurrencySymbols.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/HTTPAsyncTask$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/HTTPAsyncTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/HeaderListView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/HeaderListView$HeaderListViewOnScrollListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/HeaderListView$InternalListView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/HeaderListView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/NonSwipeableViewPager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/PinEntryEditText$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/PinEntryEditText$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/PinEntryEditText$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/PinEntryEditText$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/PinEntryEditText$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/PinEntryEditText$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/PinEntryEditText$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/PinEntryEditText$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/PinEntryEditText$OnPinEnteredListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/PinEntryEditText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/QRCodeDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/RoboCompatActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/SectionAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/SimpleSSLSocketFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/SimpleSSLSocketFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/TLSSocketFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/TLSSocketFactory$DelegateSSLSocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/TLSSocketFactory$NoSSLv3SSLSocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/TLSSocketFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/TrustManagerManipulator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/TrustManagerManipulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/diagonallayout/DiagonalLayout$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/diagonallayout/DiagonalLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/diagonallayout/DiagonalLayoutSettings$Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/diagonallayout/DiagonalLayoutSettings$Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/helpers/diagonallayout/DiagonalLayoutSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog$12$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog$8$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/activity/ActivityPascaLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/adapter/LogAdapter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/adapter/LogAdapter$ViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/adapter/LogAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/fragment/FragmentPascaLog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/fragment/FragmentPascaLog$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/fragment/FragmentPascaLog$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/fragment/FragmentPascaLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/Base64Coder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/EasyTimer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/EasyTimer$OnTaskRunListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/EasyTimer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/Helper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/Helper$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/Helper$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/Helper$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/Helper$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/Helper$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/Helper$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/Helper$GenericAsyncTask$TaskListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/Helper$GenericAsyncTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/Helper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/ObjectSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/helper/Preference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/model/BeanLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/log/model/BeanLogAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/objects/BeanType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/objects/BottomSheetMediaSelectionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/objects/ExtraBean$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/objects/ExtraBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/objects/ObjectSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/objects/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/objects/SimpleBean$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/objects/SimpleBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/objects/SimpleObjectInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/BarcodeGraphic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/BarcodeScanningProcessor$BarcodeResultListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/BarcodeScanningProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/BitmapUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/CameraImageGraphic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/CameraSource$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/CameraSource$CameraPreviewCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/CameraSource$FrameProcessingRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/CameraSource$SizePair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/CameraSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/CameraSourcePreview$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/CameraSourcePreview$SurfaceCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/CameraSourcePreview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/FrameMetadata$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/FrameMetadata$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/FrameMetadata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/GraphicOverlay$Graphic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/GraphicOverlay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/OverlayView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/VisionImageProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/scan/VisionProcessorBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/views/CurrencyEditText$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/views/CurrencyEditText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/views/CustomViewPager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/views/ExpandedViewPager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/views/LoadingCompound$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/views/LoadingCompound$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/views/LoadingCompound$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/views/LoadingCompound$LoadingListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/views/LoadingCompound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/views/NonSwipeableViewPager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/javac/debug/classes/com/maatiffens/libs/views/ShowMoreCell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/local_only_symbol_list/debug/R-def.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/packaged_res/debug/layout/cell_showmore.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/packaged_res/debug/layout/cell_showmore.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/packaged_res/debug/layout/cell_single.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/packaged_res/debug/layout/cell_single.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/packaged_res/debug/layout/cell_single_spinner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/packaged_res/debug/layout/cell_single_spinner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/packaged_res/debug/layout/custom_checkbox_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/packaged_res/debug/layout/custom_checkbox_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/packaged_res/debug/layout/custom_loading_compound.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/packaged_res/debug/layout/custom_loading_compound.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/packaged_res/debug/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/outputs/aar/common_lib-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/outputs/aar/common_lib-debug.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/adapters/ChecklistAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/adapters/ChecklistAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/adapters/PagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/adapters/PagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/adapters/SectionedSimpleAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/adapters/SectionedSimpleAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/adapters/SimpleImageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/adapters/SimpleImageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/adapters/SimpleObjectAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/adapters/SimpleObjectAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/adapters/TabsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/adapters/TabsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/fragments/DatePickerFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/fragments/DatePickerFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/fragments/TimePickerFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/fragments/TimePickerFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/generics/GenericFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/generics/GenericFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/generics/GenericFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/generics/GenericFragmentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/generics/GenericListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/generics/GenericListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/Base64.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/Base64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/BaseConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/BaseConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/BaseConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/BaseConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/BaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/BaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/BaseKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/BaseKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/BaseUIHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/BaseUIHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/CSVReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/CertHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/CertHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/CheckableObjectInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/CheckableObjectInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/ClearableAutoCompleteTextViewAsDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/ClearableAutoCompleteTextViewAsDropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/ClearableEditText.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/ClearableEditText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/CurrencySymbols.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/CurrencySymbols.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/HTTPAsyncTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/HTTPAsyncTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/HeaderListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/HeaderListView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/NonSwipeableViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/NonSwipeableViewPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/PinEntryEditText.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/PinEntryEditText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/QRCodeDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/QRCodeDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/RoboCompatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/RoboCompatActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/SectionAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/SectionAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/SimpleSSLSocketFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/SimpleSSLSocketFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/TLSSocketFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/TLSSocketFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/TrustManagerManipulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/TrustManagerManipulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/diagonallayout/DiagonalLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/diagonallayout/DiagonalLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/helpers/diagonallayout/DiagonalLayoutSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/helpers/diagonallayout/DiagonalLayoutSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/log/activity/ActivityPascaLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/log/activity/ActivityPascaLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/log/adapter/LogAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/log/adapter/LogAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/log/fragment/FragmentPascaLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/log/fragment/FragmentPascaLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/log/helper/Base64Coder.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/log/helper/Base64Coder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/log/helper/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/log/helper/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/log/helper/EasyTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/log/helper/EasyTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/log/helper/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/log/helper/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/log/helper/ObjectSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/log/helper/ObjectSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/log/helper/Preference.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/log/helper/Preference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/log/model/BeanLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/log/model/BeanLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/log/model/BeanLogAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/log/model/BeanLogAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/objects/BeanType.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/objects/BeanType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/objects/BottomSheetMediaSelectionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/objects/BottomSheetMediaSelectionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/objects/ExtraBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/objects/ExtraBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/objects/ObjectSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/objects/ObjectSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/objects/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/objects/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/objects/SimpleBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/objects/SimpleBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/objects/SimpleObjectInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/objects/SimpleObjectInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/scan/BarcodeGraphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/scan/BarcodeGraphic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/scan/BarcodeScanningProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/scan/BarcodeScanningProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/scan/BitmapUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/scan/BitmapUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/scan/CameraImageGraphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/scan/CameraImageGraphic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/scan/CameraSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/scan/CameraSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/scan/CameraSourcePreview.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/scan/CameraSourcePreview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/scan/FrameMetadata.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/scan/FrameMetadata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/scan/GraphicOverlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/scan/GraphicOverlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/scan/OverlayView.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/scan/OverlayView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/scan/VisionImageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/scan/VisionImageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/scan/VisionProcessorBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/scan/VisionProcessorBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/views/CurrencyEditText.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/views/CurrencyEditText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/views/CustomViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/views/CustomViewPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/views/ExpandedViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/views/ExpandedViewPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/views/LoadingCompound.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/views/LoadingCompound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/views/NonSwipeableViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/views/NonSwipeableViewPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/java/com/maatiffens/libs/views/ShowMoreCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/java/com/common/libs/views/ShowMoreCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/res/layout/cell_showmore.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/res/layout/cell_showmore.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/res/layout/cell_single.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/res/layout/cell_single.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/res/layout/cell_single_spinner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/res/layout/cell_single_spinner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/res/layout/custom_checkbox_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/res/layout/custom_checkbox_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/res/layout/custom_loading_compound.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/res/layout/custom_loading_compound.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/res/values/plurals.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/res/values/plurals.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_lib/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_lib/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="aaeccc560903" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -81,7 +452,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -160,5 +531,11 @@
       <updated>1591695029098</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="373" y="177" width="850" height="488" key="find.popup" timestamp="1591695270291">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="373" y="177" width="850" height="488" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1591695270291" />
   </component>
 </project>

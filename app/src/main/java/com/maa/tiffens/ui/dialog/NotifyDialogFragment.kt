@@ -5,8 +5,8 @@ import android.text.Html
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.maatiffens.gon.etc.callback.NotifyListener
-import com.maatiffens.libs.helpers.BaseHelper
+import com.common.gon.etc.callback.NotifyListener
+import com.common.libs.helpers.BaseHelper
 import com.maa.tiffens.R
 import kotlinx.android.synthetic.main.generic_dialog.*
 

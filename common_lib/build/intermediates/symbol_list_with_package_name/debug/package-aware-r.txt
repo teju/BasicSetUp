@@ -1,4 +1,4 @@
-com.maatiffens.common_library
+com.common.common_library
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1141,6 +1141,10 @@ dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
+dimen common__horizontal_margin
+dimen common__small_margin
+dimen common__vertical_margin
+dimen common__vertical_margin_big
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -1211,10 +1215,6 @@ dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
 dimen list_padding
-dimen maatiffens__horizontal_margin
-dimen maatiffens__small_margin
-dimen maatiffens__vertical_margin
-dimen maatiffens__vertical_margin_big
 dimen mtrl_alert_dialog_background_inset_bottom
 dimen mtrl_alert_dialog_background_inset_end
 dimen mtrl_alert_dialog_background_inset_start
@@ -2015,6 +2015,30 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string common__cancel
+string common__conn_fail
+string common__conn_timeout
+string common__day
+string common__days
+string common__done
+string common__hour
+string common__hours
+string common__loading
+string common__minute
+string common__minutes
+string common__more
+string common__network_error
+string common__no
+string common__no_internet
+string common__no_more
+string common__ok
+string common__open_in_browser
+string common__refresh
+string common__required_field
+string common__retry
+string common__show_more
+string common__unknown_response
+string common__yes
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -2043,30 +2067,6 @@ string font_normal
 string gallery
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
-string maatiffens__cancel
-string maatiffens__conn_fail
-string maatiffens__conn_timeout
-string maatiffens__day
-string maatiffens__days
-string maatiffens__done
-string maatiffens__hour
-string maatiffens__hours
-string maatiffens__loading
-string maatiffens__minute
-string maatiffens__minutes
-string maatiffens__more
-string maatiffens__network_error
-string maatiffens__no
-string maatiffens__no_internet
-string maatiffens__no_more
-string maatiffens__ok
-string maatiffens__open_in_browser
-string maatiffens__refresh
-string maatiffens__required_field
-string maatiffens__retry
-string maatiffens__show_more
-string maatiffens__unknown_response
-string maatiffens__yes
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_suffix
@@ -2859,7 +2859,7 @@ styleable View android_focusable android_theme paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_inflatedId android_layout
-styleable maatiffens loadingErrorMessageColor loadingErrorNetworkTitle loadingErrorNoInternetMessage loadingErrorTitleColor loadingErrorUnknownResponseMessage loadingGifNila loadingMessage loadingMessageColor loadingRetryButtonText
+styleable common loadingErrorMessageColor loadingErrorNetworkTitle loadingErrorNoInternetMessage loadingErrorTitleColor loadingErrorUnknownResponseMessage loadingGifNila loadingMessage loadingMessageColor loadingRetryButtonText
 styleable zxing_finder zxing_possible_result_points zxing_result_view zxing_viewfinder_laser zxing_viewfinder_mask
 styleable zxing_view zxing_scanner_layout
 xml provider_paths3

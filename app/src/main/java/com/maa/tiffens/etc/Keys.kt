@@ -1,6 +1,6 @@
 package com.maa.tiffens.etc
 
-import com.maatiffens.libs.helpers.BaseKeys
+import com.common.libs.helpers.BaseKeys
 
 class Keys : BaseKeys() {
     companion object {

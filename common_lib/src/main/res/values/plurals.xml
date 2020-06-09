@@ -2,20 +2,20 @@
 <resources>
     <plurals
         name="hours">
-        <item quantity="zero">@string/maatiffens__hours</item>
-        <item quantity="one">@string/maatiffens__hour</item>
-        <item quantity="other">@string/maatiffens__hours</item>
+        <item quantity="zero">@string/common__hours</item>
+        <item quantity="one">@string/common__hour</item>
+        <item quantity="other">@string/common__hours</item>
     </plurals>
     <plurals
         name="minutes">
-        <item quantity="zero">@string/maatiffens__minutes</item>
-        <item quantity="one">@string/maatiffens__minute</item>
-        <item quantity="other"> @string/maatiffens__minutes</item>
+        <item quantity="zero">@string/common__minutes</item>
+        <item quantity="one">@string/common__minute</item>
+        <item quantity="other"> @string/common__minutes</item>
     </plurals>
     <plurals
         name="days">
-        <item quantity="zero">@string/maatiffens__days</item>
-        <item quantity="one">@string/maatiffens__day</item>
-        <item quantity="other">@string/maatiffens__days</item>
+        <item quantity="zero">@string/common__days</item>
+        <item quantity="one">@string/common__day</item>
+        <item quantity="other">@string/common__days</item>
     </plurals>
 </resources>

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.maatiffens.common_library",
+  "applicationId": "com.common.common_library",
   "variantType": "LIBRARY",
   "elements": [
     {
@@ -18,7 +18,7 @@
       },
       "path": "AndroidManifest.xml",
       "properties": {
-        "packageId": "com.maatiffens.common_library",
+        "packageId": "com.common.common_library",
         "split": ""
       }
     }

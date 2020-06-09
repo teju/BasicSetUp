@@ -13,9 +13,9 @@ import android.view.View
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import com.franmontiel.localechanger.LocaleChanger
-import com.maatiffens.gon.etc.callback.NotifyListener
-import com.maatiffens.libs.helpers.BaseHelper
-import com.maatiffens.libs.helpers.BaseUIHelper
+import com.common.gon.etc.callback.NotifyListener
+import com.common.libs.helpers.BaseHelper
+import com.common.libs.helpers.BaseUIHelper
 import com.maa.tiffens.etc.Helper
 import com.maa.tiffens.etc.UserInfoManager
 import com.maa.tiffens.ui.dialog.NotifyDialogFragment

@@ -1,4 +1,4 @@
-package com.maatiffens.gon.etc.callback
+package com.common.gon.etc.callback
 
 
 interface PermissionListener {

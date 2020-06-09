@@ -6,7 +6,7 @@ import android.content.res.Configuration
 import com.franmontiel.localechanger.LocaleChanger
 import java.util.*
 
-class MaaTiffensApplication : Application() {
+class commonApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()

@@ -11,19 +11,18 @@ import android.text.TextWatcher
 import android.text.style.StyleSpan
 import android.util.Log
 import android.view.View
-import android.widget.RelativeLayout
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.Observer
 import com.google.firebase.BuildConfig
 
-import com.maatiffens.gon.etc.callback.NotifyListener
-import com.maatiffens.gon.etc.callback.PermissionListener
-import com.maatiffens.libs.generics.GenericFragment
-import com.maatiffens.libs.helpers.BaseHelper
-import com.maatiffens.libs.helpers.BaseUIHelper
-import com.maatiffens.libs.views.LoadingCompound
+import com.common.gon.etc.callback.NotifyListener
+import com.common.gon.etc.callback.PermissionListener
+import com.common.libs.generics.GenericFragment
+import com.common.libs.helpers.BaseHelper
+import com.common.libs.helpers.BaseUIHelper
+import com.common.libs.views.LoadingCompound
 import com.maa.tiffens.ActivityMain
 import com.maa.tiffens.R
 import com.maa.tiffens.etc.Constants
@@ -53,7 +52,7 @@ open class BaseFragment : GenericFragment() {
             if (!isHaveInternet) {
                 if (activity == null) return@Observer
                 showNotifyDialog(
-                    getString(R.string.maatiffens__no_internet), getString(
+                    getString(R.string.common__no_internet), getString(
                         R.string.no_connection
                     ),
                     getString(R.string.ok),"",object : NotifyListener {
@@ -379,8 +378,8 @@ open class BaseFragment : GenericFragment() {
     }
 
     fun showLoadingLogicError(ld: LoadingCompound, errorLogicCode : String){
-        ld.showError(getString(com.maatiffens.common_library.R.string.maatiffens__network_error),
-            String.format("%s (%s)", getString(com.maatiffens.common_library.R.string.maatiffens__unknown_response), errorLogicCode))
+        ld.showError(getString(com.common.common_library.R.string.common__network_error),
+            String.format("%s (%s)", getString(com.common.common_library.R.string.common__unknown_response), errorLogicCode))
     }
 
 

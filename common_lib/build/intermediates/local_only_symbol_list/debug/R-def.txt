@@ -193,11 +193,11 @@ color white_transparent
 color whitegray
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
+dimen common__horizontal_margin
+dimen common__small_margin
+dimen common__vertical_margin
+dimen common__vertical_margin_big
 dimen list_padding
-dimen maatiffens__horizontal_margin
-dimen maatiffens__small_margin
-dimen maatiffens__vertical_margin
-dimen maatiffens__vertical_margin_big
 dimen progress_action_padding
 dimen shadow_width
 dimen slidingmenu_offset
@@ -292,35 +292,35 @@ plurals minutes
 string app_name
 string camera
 string cancel
+string common__cancel
+string common__conn_fail
+string common__conn_timeout
+string common__day
+string common__days
+string common__done
+string common__hour
+string common__hours
+string common__loading
+string common__minute
+string common__minutes
+string common__more
+string common__network_error
+string common__no
+string common__no_internet
+string common__no_more
+string common__ok
+string common__open_in_browser
+string common__refresh
+string common__required_field
+string common__retry
+string common__show_more
+string common__unknown_response
+string common__yes
 string font_bold
 string font_bold_italic
 string font_italic
 string font_normal
 string gallery
-string maatiffens__cancel
-string maatiffens__conn_fail
-string maatiffens__conn_timeout
-string maatiffens__day
-string maatiffens__days
-string maatiffens__done
-string maatiffens__hour
-string maatiffens__hours
-string maatiffens__loading
-string maatiffens__minute
-string maatiffens__minutes
-string maatiffens__more
-string maatiffens__network_error
-string maatiffens__no
-string maatiffens__no_internet
-string maatiffens__no_more
-string maatiffens__ok
-string maatiffens__open_in_browser
-string maatiffens__refresh
-string maatiffens__required_field
-string maatiffens__retry
-string maatiffens__show_more
-string maatiffens__unknown_response
-string maatiffens__yes
 string select_image
 style AppBaseTheme
 style AppTheme
@@ -330,5 +330,5 @@ style textSmall
 styleable CurrencyEditText android:layout_gravity
 styleable DiagonalLayout diagonal_angle diagonal_handleMargins diagonal_position diagonal_direction
 styleable PinEntryEditText pinAnimationType pinCharacterMask pinRepeatedHint pinLineStroke pinLineStrokeSelected pinCharacterSpacing pinTextBottomPadding pinTextTopPadding pinLineColors pinBackgroundDrawable pinBackgroundIsSquare pinCharHeight pinCharWidth
-styleable maatiffens loadingMessageColor loadingErrorTitleColor loadingErrorMessageColor loadingMessage loadingErrorNetworkTitle loadingErrorNoInternetMessage loadingErrorUnknownResponseMessage loadingRetryButtonText loadingGifNila
+styleable common loadingMessageColor loadingErrorTitleColor loadingErrorMessageColor loadingMessage loadingErrorNetworkTitle loadingErrorNoInternetMessage loadingErrorUnknownResponseMessage loadingRetryButtonText loadingGifNila
 xml provider_paths3

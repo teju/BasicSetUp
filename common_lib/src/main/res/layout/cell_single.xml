@@ -5,18 +5,18 @@
     android:gravity="center_vertical"
     android:orientation="vertical"
     android:background="@color/white"
-    android:paddingBottom="@dimen/maatiffens__vertical_margin"
-    android:paddingLeft="@dimen/maatiffens__horizontal_margin"
-    android:paddingRight="@dimen/maatiffens__horizontal_margin"
-    android:paddingTop="@dimen/maatiffens__vertical_margin" >
+    android:paddingBottom="@dimen/common__vertical_margin"
+    android:paddingLeft="@dimen/common__horizontal_margin"
+    android:paddingRight="@dimen/common__horizontal_margin"
+    android:paddingTop="@dimen/common__vertical_margin" >
 
     <TextView
         android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginBottom="@dimen/maatiffens__vertical_margin"
-        android:layout_marginTop="@dimen/maatiffens__vertical_margin"
+        android:layout_marginBottom="@dimen/common__vertical_margin"
+        android:layout_marginTop="@dimen/common__vertical_margin"
         android:gravity="center_vertical"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/Black"
